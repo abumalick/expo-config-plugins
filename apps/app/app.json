@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "app",
+    "name": "Plugins app",
     "slug": "app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "https://icogen.vercel.app/api/icon",
+    "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -16,25 +16,28 @@
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "dev.bacon.app"
+      "bundleIdentifier": "dev.devpal.plugin.app"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.bacon.app"
+      "package": "dev.devpal.plugin.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
-     
-      "@config-plugins/react-native-adjust",
-      "@config-plugins/react-native-callkeep",
-      "@config-plugins/react-native-blob-util",
-      "@config-plugins/react-native-pdf",
-      "@config-plugins/android-jsc-intl"
+      [
+        "expo-native-translations",
+        {
+          "translations": [
+            { "locale": "ar", "appName": "تجرب" },
+            { "locale": "en", "appName": "Plugin app English" }
+          ]
+        }
+      ]
     ]
   }
 }

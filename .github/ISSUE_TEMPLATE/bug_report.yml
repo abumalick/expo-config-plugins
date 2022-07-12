@@ -29,21 +29,7 @@ body:
     attributes:
       label: Config Plugin
       options:
-        - '@config-plugins/android-jsc-intl'
-        - '@config-plugins/detox'
-        - '@config-plugins/ffmpeg-kit-react-native'
-        - '@config-plugins/ios-stickers'
-        - '@config-plugins/react-native-adjust'
-        - '@config-plugins/react-native-ble-plx'
-        - '@config-plugins/react-native-blob-util'
-        - '@config-plugins/react-native-branch'
-        - '@config-plugins/react-native-callkeep'
-        - '@config-plugins/react-native-dynamic-app-icon'
-        - '@config-plugins/react-native-google-cast'
-        - '@config-plugins/react-native-pdf'
-        - '@config-plugins/react-native-quick-actions'
-        - '@config-plugins/react-native-siri-shortcut'
-        - '@config-plugins/react-native-webrtc'
+        - "expo-native-translations"
     validations:
       required: true
   - type: dropdown
@@ -64,7 +50,7 @@ body:
       label: Reproducible demo
       description: >-
         This should include as little code as possible, do not simply link your
-        entire project. If a reproducible demo is not provided, it is very 
+        entire project. If a reproducible demo is not provided, it is very
         likely your issue will be closed. Read [here more
         guidance](https://stackoverflow.com/help/mcve).
     validations:

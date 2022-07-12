@@ -18,7 +18,7 @@ const sortMap = Object.fromEntries(
 module.exports = {
   branches: ["main"],
   tagFormat: "${version}",
-  repositoryUrl: "https://github.com/expo/config-plugins.git",
+  repositoryUrl: "https://github.com/abumalick/expo-config-plugins.git",
   plugins: [
     [
       "@semantic-release/commit-analyzer",

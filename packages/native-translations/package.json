@@ -1,0 +1,40 @@
+{
+  "name": "expo-native-translations",
+  "version": "1.0.0",
+  "description": "Config plugin for translating native strings for android and iOS",
+  "main": "build/withNativeLocalization.js",
+  "types": "build/withNativeLocalization.d.ts",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abumalick/expo-config-plugins.git",
+    "directory": "packages/native-translations"
+  },
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module"
+  },
+  "keywords": [
+    "react",
+    "expo",
+    "config-plugins",
+    "prebuild",
+    "translations"
+  ],
+  "jest": {
+    "preset": "expo-module-scripts"
+  },
+  "dependencies": {
+    "@expo/config-plugins": "~4.1.4",
+    "@types/uuid": "^8.3.4",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "expo-module-scripts": "^2.0.0"
+  }
+}
