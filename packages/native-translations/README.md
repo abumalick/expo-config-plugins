@@ -1,3 +1,5 @@
+# DEPRECATED: You can use expo native capabilities for iOS and the plugin [@mmomtchev/expo-android-localized-app-name](https://github.com/mmomtchev/expo-android-localized-app-name) for android to achieve native translations.
+
 # expo-native-translations
 
 Expo Config Plugin to configure native translations when the native code is generated (`expo prebuild`).
