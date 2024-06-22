@@ -1,3 +1,10 @@
+### expo-native-translations [1.0.1](https://github.com/abumalick/expo-config-plugins/compare/expo-native-translations@1.0.0...expo-native-translations@1.0.1) (2024-06-22)
+
+
+### Documentation changes
+
+* add deprecation notice ([041d5ca](https://github.com/abumalick/expo-config-plugins/commit/041d5ca966b7fb04caa652d3e1f5d70687eaa978))
+
 ## expo-native-translations 1.0.0 (2022-07-13)
 
 

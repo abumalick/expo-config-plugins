@@ -1,6 +1,6 @@
 {
   "name": "expo-native-translations",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Config plugin for translating native strings for android and iOS",
   "main": "build/withNativeLocalization.js",
   "types": "build/withNativeLocalization.d.ts",
